@@ -104,29 +104,6 @@ packinspect-anomaly-detector/
 └── README.md               # Project documentation (this file)
 ```
 
-## Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/devaldaki3/packinspect-anomaly-detector.git
-cd packinspect-anomaly-detector
-```
-
-### 2. Install Requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the Application
-
-```bash
-streamlit run app.py
-```
-
-Open your browser at [http://localhost:8501](http://localhost:8501)
-
 ## Model
 
 The application uses a binary classification model trained using the included `train_model.py` script and exported in `.keras` format.
@@ -149,15 +126,3 @@ The application uses a binary classification model trained using the included `t
 This project is licensed under the MIT License.
 You can use, modify, and distribute it freely with proper attribution.
 
-## Author
-
-Developed with ❤️ by [@devaldaki3](https://github.com/devaldaki3)
-
-Feel free to contribute, raise issues, or suggest improvements.
-
-## Screenshots
-
-**Prediction Result**
-![Prediction Result](assets/prediction_result.png)
-
-[⬆️ Back to Top](#table-of-contents)
